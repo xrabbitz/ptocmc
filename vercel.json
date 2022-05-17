@@ -1,7 +1,7 @@
 {
-  "name": "vpcapi",
+  "name": "ptocmc",
   "version": 2,
   "routes": [
-    {"src": "/(.*)","dest": "https://ptocmc.xrabbitz.workers.dev/$1"}
+    {"src": "/(.*)","dest": "https://api.coinmarketcap.com/$1"}
   ]
 }
