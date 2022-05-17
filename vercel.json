@@ -1,7 +1,10 @@
 {
   "name": "ptocmc",
   "version": 2,
+  "builds": [
+    {"src": "./index.js","use": "@vercel/node"}
+  ],
   "routes": [
-    {"src": "/(.*)","dest": "https://api.coinmarketcap.com/$1"}
+    {"src": "/(.*)","dest": "/$1"}
   ]
 }
